@@ -1,3 +1,5 @@
+# função para capturar os dados das estações
+
 get_stations <- function(file){
   
   caract = data.table::fread(
